@@ -9,7 +9,7 @@ function resta(a, b) {
 }
 
 // TEST 1
-if (suma(2, 2) !== 4) {
+if (suma(2, 2) !== 5) {
   throw new Error("❌ Error en suma");
 }
 
@@ -24,3 +24,5 @@ if (suma(-1, -1) !== -2) {
 }
 
 console.log("✅ Todos los tests pasaron");
+
+
